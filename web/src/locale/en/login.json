@@ -1,0 +1,19 @@
+{
+  "login": {
+    "title": "APP",
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "username": "Nombre de usuario",
+    "password": "Contraseña",
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "error": {
+      "requiredField": "Este campo es obligatorio.",
+      "invalidCredentials": "Nombre de usuario o contraseña incorrectos."
+    },
+    "success": {
+      "loginSuccess": "Has iniciado sesión correctamente.",
+      "logoutSuccess": "Has cerrado sesión correctamente."
+    }
+  }
+}

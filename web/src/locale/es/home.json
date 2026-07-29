@@ -1,0 +1,20 @@
+{
+  "home": {
+    "appName": "App Example",
+    "welcome": "¡Bienvenido a nuestra aplicación!",
+    "nav": {
+      "routes": {
+        "home": "Inicio",
+        "login": "Iniciar sesión",
+        "notFound": "No encontrado"
+      },
+      "menu": {
+        "openMenu": "Abrir menú",
+        "closeMenu": "Cerrar menú"
+      },
+      "theme": {
+        "toggleTheme": "Cambiar tema"
+      }
+    }
+  }
+}

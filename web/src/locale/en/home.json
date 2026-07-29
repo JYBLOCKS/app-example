@@ -1,0 +1,20 @@
+{
+  "home": {
+    "appName": "App Example",
+    "welcome": "Welcome to our application!",
+    "nav": {
+      "routes": {
+        "home": "Home",
+        "login": "Login",
+        "notFound": "Not Found"
+      },
+      "menu": {
+        "openMenu": "Open menu",
+        "closeMenu": "Close menu"
+      },
+      "theme": {
+        "toggleTheme": "Toggle theme"
+      }
+    }
+  }
+}
