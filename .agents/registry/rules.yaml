@@ -1,0 +1,16 @@
+version: 1
+rules:
+  - path: .agents/rules/global.md
+    applies_to: [all]
+  - path: .agents/rules/coding.md
+    applies_to: [implementation]
+  - path: .agents/rules/frontend.md
+    applies_to: [frontend]
+  - path: .agents/rules/backend.md
+    applies_to: [backend]
+  - path: .agents/rules/testing.md
+    applies_to: [quality, implementation]
+  - path: .agents/rules/security.md
+    applies_to: [all]
+  - path: .agents/rules/documentation.md
+    applies_to: [all]
