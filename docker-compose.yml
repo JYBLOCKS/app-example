@@ -22,6 +22,11 @@ services:
     depends_on:
       api:
         condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "--quiet", "http://localhost/api/v1/ready"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
     ports:
       - "8080:80"
     networks:
