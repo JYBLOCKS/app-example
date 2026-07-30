@@ -1,11 +1,12 @@
 import { describe, expect, it } from "vitest";
+import { MemoryRouter } from "react-router";
 import { render, screen } from "../../../utils/test-config";
 import NotFound from "../../landing/pages/NotFound.page";
 import Login from "../pages/Login.page";
 
 describe("public authentication pages", () => {
   it("renders the login title", () => {
-    render(<Login />);
+      render(<MemoryRouter><Login /></MemoryRouter>);
 
     expect(screen.getByRole("heading", { name: "APP" })).toBeTruthy();
   });
