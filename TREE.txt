@@ -1,0 +1,121 @@
+app-example/
+├── .agents/
+│   ├── agents/
+│   │   ├── backend-agent.md
+│   │   ├── frontend-agent.md
+│   │   ├── infrastructure-agent.md
+│   │   ├── orchestrator.md
+│   │   ├── product-agent.md
+│   │   ├── qa-agent.md
+│   │   └── reviewer-agent.md
+│   ├── harnesses/
+│   │   ├── context-validation.md
+│   │   ├── feature-readiness.md
+│   │   ├── implementation-quality.md
+│   │   └── validate_registry.py
+│   ├── registry/
+│   │   ├── agents.yaml
+│   │   ├── rules.yaml
+│   │   ├── skills.yaml
+│   │   └── workflows.yaml
+│   ├── reports/
+│   │   └── README.md
+│   ├── rules/
+│   │   ├── backend.md
+│   │   ├── coding.md
+│   │   ├── documentation.md
+│   │   ├── frontend.md
+│   │   ├── global.md
+│   │   ├── security.md
+│   │   └── testing.md
+│   ├── skills/
+│   │   ├── backend/
+│   │   │   ├── create-domain-module/
+│   │   │   │   └── SKILL.md
+│   │   │   ├── create-endpoint/
+│   │   │   │   └── SKILL.md
+│   │   │   └── database-migration/
+│   │   │       └── SKILL.md
+│   │   ├── common/
+│   │   │   ├── code-review/
+│   │   │   │   └── SKILL.md
+│   │   │   ├── context-discovery/
+│   │   │   │   └── SKILL.md
+│   │   │   ├── specification-driven-development/
+│   │   │   │   └── SKILL.md
+│   │   │   └── test-driven-development/
+│   │   │       └── SKILL.md
+│   │   ├── frontend/
+│   │   │   ├── create-api-adapter/
+│   │   │   │   └── SKILL.md
+│   │   │   ├── create-component/
+│   │   │   │   └── SKILL.md
+│   │   │   ├── create-feature/
+│   │   │   │   └── SKILL.md
+│   │   │   ├── create-form/
+│   │   │   │   └── SKILL.md
+│   │   │   ├── create-page/
+│   │   │   │   └── SKILL.md
+│   │   │   ├── create-store/
+│   │   │   │   └── SKILL.md
+│   │   │   ├── performance-audit/
+│   │   │   │   └── SKILL.md
+│   │   │   └── test-feature/
+│   │   │       └── SKILL.md
+│   │   ├── infrastructure/
+│   │   │   ├── dockerize-application/
+│   │   │   │   └── SKILL.md
+│   │   │   └── github-actions-ci/
+│   │   │       └── SKILL.md
+│   │   └── qa/
+│   │       └── acceptance-validation/
+│   │           └── SKILL.md
+│   ├── templates/
+│   │   ├── ADR.template.md
+│   │   ├── AGENT.template.md
+│   │   ├── FEATURE_SPEC.template.md
+│   │   ├── IMPLEMENTATION_REPORT.template.md
+│   │   ├── PROJECT_CONTEXT.template.md
+│   │   ├── REVIEW_REPORT.template.md
+│   │   ├── SKILL.template.md
+│   │   ├── TASK_PLAN.template.md
+│   │   └── TEST_PLAN.template.md
+│   ├── workflows/
+│   │   ├── architecture-decision.md
+│   │   ├── bug-fix.md
+│   │   ├── new-feature.md
+│   │   ├── new-project.md
+│   │   ├── pull-request-review.md
+│   │   └── release.md
+│   ├── CONTRACT.md
+│   └── README.md
+├── decisions/
+│   ├── architecture/
+│   │   ├── ADR-0001-feature-first-frontend.md
+│   │   └── ADR-0002-agent-governance.md
+│   ├── design/
+│   │   └── ADR-0001-design-system.md
+│   ├── product/
+│   │   └── ADR-0001-mvp-scope.md
+│   └── README.md
+├── specs/
+│   ├── backend/
+│   │   ├── API_SPEC.template.md
+│   │   ├── BACKEND_ARCHITECTURE.md
+│   │   └── DATA_MODEL.template.md
+│   ├── frontend/
+│   │   ├── COMPONENT_SPEC.template.md
+│   │   ├── FEATURE_SPEC.template.md
+│   │   └── FRONTEND_ARCHITECTURE.md
+│   ├── infrastructure/
+│   │   ├── CI_CD.template.md
+│   │   ├── ENVIRONMENTS.template.md
+│   │   └── INFRASTRUCTURE_SPEC.template.md
+│   ├── product/
+│   │   ├── MVP_SCOPE.template.md
+│   │   ├── PRODUCT_REQUIREMENTS.template.md
+│   │   └── USER_STORY.template.md
+│   └── README.md
+├── AGENTS.md
+├── MANIFEST.json
+└── PROJECT_CONTEXT.md

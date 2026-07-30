@@ -1,0 +1,323 @@
+{
+  "name": "app-example",
+  "version": "1.0.0",
+  "file_count": 80,
+  "files": [
+    {
+      "path": ".agents/CONTRACT.md",
+      "bytes": 2424
+    },
+    {
+      "path": ".agents/README.md",
+      "bytes": 1047
+    },
+    {
+      "path": ".agents/agents/backend-agent.md",
+      "bytes": 811
+    },
+    {
+      "path": ".agents/agents/frontend-agent.md",
+      "bytes": 822
+    },
+    {
+      "path": ".agents/agents/infrastructure-agent.md",
+      "bytes": 848
+    },
+    {
+      "path": ".agents/agents/orchestrator.md",
+      "bytes": 825
+    },
+    {
+      "path": ".agents/agents/product-agent.md",
+      "bytes": 815
+    },
+    {
+      "path": ".agents/agents/qa-agent.md",
+      "bytes": 787
+    },
+    {
+      "path": ".agents/agents/reviewer-agent.md",
+      "bytes": 823
+    },
+    {
+      "path": ".agents/harnesses/context-validation.md",
+      "bytes": 528
+    },
+    {
+      "path": ".agents/harnesses/feature-readiness.md",
+      "bytes": 512
+    },
+    {
+      "path": ".agents/harnesses/implementation-quality.md",
+      "bytes": 581
+    },
+    {
+      "path": ".agents/harnesses/validate_registry.py",
+      "bytes": 1079
+    },
+    {
+      "path": ".agents/registry/agents.yaml",
+      "bytes": 646
+    },
+    {
+      "path": ".agents/registry/rules.yaml",
+      "bytes": 463
+    },
+    {
+      "path": ".agents/registry/skills.yaml",
+      "bytes": 3797
+    },
+    {
+      "path": ".agents/registry/workflows.yaml",
+      "bytes": 420
+    },
+    {
+      "path": ".agents/reports/README.md",
+      "bytes": 298
+    },
+    {
+      "path": ".agents/rules/backend.md",
+      "bytes": 411
+    },
+    {
+      "path": ".agents/rules/coding.md",
+      "bytes": 374
+    },
+    {
+      "path": ".agents/rules/documentation.md",
+      "bytes": 380
+    },
+    {
+      "path": ".agents/rules/frontend.md",
+      "bytes": 581
+    },
+    {
+      "path": ".agents/rules/global.md",
+      "bytes": 387
+    },
+    {
+      "path": ".agents/rules/security.md",
+      "bytes": 444
+    },
+    {
+      "path": ".agents/rules/testing.md",
+      "bytes": 341
+    },
+    {
+      "path": ".agents/skills/backend/create-domain-module/SKILL.md",
+      "bytes": 1079
+    },
+    {
+      "path": ".agents/skills/backend/create-endpoint/SKILL.md",
+      "bytes": 1101
+    },
+    {
+      "path": ".agents/skills/backend/database-migration/SKILL.md",
+      "bytes": 1055
+    },
+    {
+      "path": ".agents/skills/common/code-review/SKILL.md",
+      "bytes": 1040
+    },
+    {
+      "path": ".agents/skills/common/context-discovery/SKILL.md",
+      "bytes": 1130
+    },
+    {
+      "path": ".agents/skills/common/specification-driven-development/SKILL.md",
+      "bytes": 1084
+    },
+    {
+      "path": ".agents/skills/common/test-driven-development/SKILL.md",
+      "bytes": 1041
+    },
+    {
+      "path": ".agents/skills/frontend/create-api-adapter/SKILL.md",
+      "bytes": 1113
+    },
+    {
+      "path": ".agents/skills/frontend/create-component/SKILL.md",
+      "bytes": 1060
+    },
+    {
+      "path": ".agents/skills/frontend/create-feature/SKILL.md",
+      "bytes": 1348
+    },
+    {
+      "path": ".agents/skills/frontend/create-form/SKILL.md",
+      "bytes": 1217
+    },
+    {
+      "path": ".agents/skills/frontend/create-page/SKILL.md",
+      "bytes": 1102
+    },
+    {
+      "path": ".agents/skills/frontend/create-store/SKILL.md",
+      "bytes": 1094
+    },
+    {
+      "path": ".agents/skills/frontend/performance-audit/SKILL.md",
+      "bytes": 1130
+    },
+    {
+      "path": ".agents/skills/frontend/test-feature/SKILL.md",
+      "bytes": 1004
+    },
+    {
+      "path": ".agents/skills/infrastructure/dockerize-application/SKILL.md",
+      "bytes": 1189
+    },
+    {
+      "path": ".agents/skills/infrastructure/github-actions-ci/SKILL.md",
+      "bytes": 1139
+    },
+    {
+      "path": ".agents/skills/qa/acceptance-validation/SKILL.md",
+      "bytes": 1022
+    },
+    {
+      "path": ".agents/templates/ADR.template.md",
+      "bytes": 516
+    },
+    {
+      "path": ".agents/templates/AGENT.template.md",
+      "bytes": 263
+    },
+    {
+      "path": ".agents/templates/FEATURE_SPEC.template.md",
+      "bytes": 1328
+    },
+    {
+      "path": ".agents/templates/IMPLEMENTATION_REPORT.template.md",
+      "bytes": 553
+    },
+    {
+      "path": ".agents/templates/PROJECT_CONTEXT.template.md",
+      "bytes": 1366
+    },
+    {
+      "path": ".agents/templates/REVIEW_REPORT.template.md",
+      "bytes": 447
+    },
+    {
+      "path": ".agents/templates/SKILL.template.md",
+      "bytes": 305
+    },
+    {
+      "path": ".agents/templates/TASK_PLAN.template.md",
+      "bytes": 450
+    },
+    {
+      "path": ".agents/templates/TEST_PLAN.template.md",
+      "bytes": 352
+    },
+    {
+      "path": ".agents/workflows/architecture-decision.md",
+      "bytes": 448
+    },
+    {
+      "path": ".agents/workflows/bug-fix.md",
+      "bytes": 438
+    },
+    {
+      "path": ".agents/workflows/new-feature.md",
+      "bytes": 576
+    },
+    {
+      "path": ".agents/workflows/new-project.md",
+      "bytes": 623
+    },
+    {
+      "path": ".agents/workflows/pull-request-review.md",
+      "bytes": 441
+    },
+    {
+      "path": ".agents/workflows/release.md",
+      "bytes": 449
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 3299
+    },
+    {
+      "path": "PROJECT_CONTEXT.md",
+      "bytes": 1366
+    },
+    {
+      "path": "TREE.txt",
+      "bytes": 4680
+    },
+    {
+      "path": "decisions/README.md",
+      "bytes": 456
+    },
+    {
+      "path": "decisions/architecture/ADR-0001-feature-first-frontend.md",
+      "bytes": 972
+    },
+    {
+      "path": "decisions/architecture/ADR-0002-agent-governance.md",
+      "bytes": 676
+    },
+    {
+      "path": "decisions/design/ADR-0001-design-system.md",
+      "bytes": 671
+    },
+    {
+      "path": "decisions/product/ADR-0001-mvp-scope.md",
+      "bytes": 624
+    },
+    {
+      "path": "specs/README.md",
+      "bytes": 803
+    },
+    {
+      "path": "specs/backend/API_SPEC.template.md",
+      "bytes": 921
+    },
+    {
+      "path": "specs/backend/BACKEND_ARCHITECTURE.md",
+      "bytes": 1487
+    },
+    {
+      "path": "specs/backend/DATA_MODEL.template.md",
+      "bytes": 633
+    },
+    {
+      "path": "specs/frontend/COMPONENT_SPEC.template.md",
+      "bytes": 666
+    },
+    {
+      "path": "specs/frontend/FEATURE_SPEC.template.md",
+      "bytes": 1328
+    },
+    {
+      "path": "specs/frontend/FRONTEND_ARCHITECTURE.md",
+      "bytes": 3789
+    },
+    {
+      "path": "specs/infrastructure/CI_CD.template.md",
+      "bytes": 647
+    },
+    {
+      "path": "specs/infrastructure/ENVIRONMENTS.template.md",
+      "bytes": 494
+    },
+    {
+      "path": "specs/infrastructure/INFRASTRUCTURE_SPEC.template.md",
+      "bytes": 1047
+    },
+    {
+      "path": "specs/product/MVP_SCOPE.template.md",
+      "bytes": 591
+    },
+    {
+      "path": "specs/product/PRODUCT_REQUIREMENTS.template.md",
+      "bytes": 650
+    },
+    {
+      "path": "specs/product/USER_STORY.template.md",
+      "bytes": 588
+    }
+  ]
+}

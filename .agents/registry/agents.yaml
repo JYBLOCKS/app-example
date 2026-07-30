@@ -1,0 +1,23 @@
+version: 1
+agents:
+  - id: orchestrator
+    path: .agents/agents/orchestrator.md
+    domains: [coordination]
+  - id: product-agent
+    path: .agents/agents/product-agent.md
+    domains: [product]
+  - id: frontend-agent
+    path: .agents/agents/frontend-agent.md
+    domains: [frontend]
+  - id: backend-agent
+    path: .agents/agents/backend-agent.md
+    domains: [backend]
+  - id: infrastructure-agent
+    path: .agents/agents/infrastructure-agent.md
+    domains: [infrastructure]
+  - id: qa-agent
+    path: .agents/agents/qa-agent.md
+    domains: [quality]
+  - id: reviewer-agent
+    path: .agents/agents/reviewer-agent.md
+    domains: [review]

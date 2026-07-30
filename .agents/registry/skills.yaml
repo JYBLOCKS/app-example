@@ -1,0 +1,74 @@
+version: 1
+skills:
+  - id: backend-create-domain-module
+    path: .agents/skills/backend/create-domain-module/SKILL.md
+    domain: backend
+    description: "Create a domain module with explicit invariants and infrastructure boundaries."
+  - id: backend-create-endpoint
+    path: .agents/skills/backend/create-endpoint/SKILL.md
+    domain: backend
+    description: "Implement a secure, tested endpoint from an approved API specification."
+  - id: backend-database-migration
+    path: .agents/skills/backend/database-migration/SKILL.md
+    domain: backend
+    description: "Design and validate a safe schema or data migration."
+  - id: code-review
+    path: .agents/skills/common/code-review/SKILL.md
+    domain: common
+    description: "Perform a specification-aware, risk-prioritized review."
+  - id: context-discovery
+    path: .agents/skills/common/context-discovery/SKILL.md
+    domain: common
+    description: "Load and reconcile the minimum authoritative context required for a task."
+  - id: specification-driven-development
+    path: .agents/skills/common/specification-driven-development/SKILL.md
+    domain: common
+    description: "Convert an approved requirement into traceable implementation work."
+  - id: test-driven-development
+    path: .agents/skills/common/test-driven-development/SKILL.md
+    domain: common
+    description: "Drive behavior changes through failing tests, minimal implementation, and safe refactoring."
+  - id: frontend-create-api-adapter
+    path: .agents/skills/frontend/create-api-adapter/SKILL.md
+    domain: frontend
+    description: "Create a typed API boundary and map external contracts to stable feature models."
+  - id: frontend-create-component
+    path: .agents/skills/frontend/create-component/SKILL.md
+    domain: frontend
+    description: "Create an accessible, typed, testable React component at the correct ownership level."
+  - id: frontend-create-feature
+    path: .agents/skills/frontend/create-feature/SKILL.md
+    domain: frontend
+    description: "Create a complete frontend feature slice using the standard feature-first structure."
+  - id: frontend-create-form
+    path: .agents/skills/frontend/create-form/SKILL.md
+    domain: frontend
+    description: "Build a resilient React Hook Form workflow with schema validation and server-error handling."
+  - id: frontend-create-page
+    path: .agents/skills/frontend/create-page/SKILL.md
+    domain: frontend
+    description: "Create a route-level page that composes feature capabilities and all required states."
+  - id: frontend-create-store
+    path: .agents/skills/frontend/create-store/SKILL.md
+    domain: frontend
+    description: "Create a feature-scoped client state store with narrow selectors and predictable updates."
+  - id: frontend-performance-audit
+    path: .agents/skills/frontend/performance-audit/SKILL.md
+    domain: frontend
+    description: "Identify and fix measured frontend performance bottlenecks without speculative complexity."
+  - id: frontend-test-feature
+    path: .agents/skills/frontend/test-feature/SKILL.md
+    domain: frontend
+    description: "Build a layered test suite for a frontend feature workflow."
+  - id: infrastructure-dockerize-application
+    path: .agents/skills/infrastructure/dockerize-application/SKILL.md
+    domain: infrastructure
+    description: "Create reproducible, secure containers and local orchestration."
+  - id: infrastructure-github-actions-ci
+    path: .agents/skills/infrastructure/github-actions-ci/SKILL.md
+    domain: infrastructure
+    description: "Create a GitHub Actions pipeline that validates the project consistently."
+  - id: qa-acceptance-validation
+    path: .agents/skills/qa/acceptance-validation/SKILL.md
+    domain: qa
+    description: "Independently verify delivered behavior against acceptance criteria."
