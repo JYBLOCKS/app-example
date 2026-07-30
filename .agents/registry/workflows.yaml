@@ -1,0 +1,14 @@
+version: 1
+workflows:
+  - id: new-project
+    path: .agents/workflows/new-project.md
+  - id: new-feature
+    path: .agents/workflows/new-feature.md
+  - id: bug-fix
+    path: .agents/workflows/bug-fix.md
+  - id: architecture-decision
+    path: .agents/workflows/architecture-decision.md
+  - id: pull-request-review
+    path: .agents/workflows/pull-request-review.md
+  - id: release
+    path: .agents/workflows/release.md
