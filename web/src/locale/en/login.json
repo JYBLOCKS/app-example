@@ -1,11 +1,13 @@
 {
   "login": {
     "title": "APP",
+    "subtitle": "Sign in to continue",
     "login": "Iniciar sesión",
     "logout": "Cerrar sesión",
     "username": "Nombre de usuario",
     "password": "Contraseña",
     "submit": "Enviar",
+    "loading": "Signing in...",
     "cancel": "Cancelar",
     "error": {
       "requiredField": "Este campo es obligatorio.",
